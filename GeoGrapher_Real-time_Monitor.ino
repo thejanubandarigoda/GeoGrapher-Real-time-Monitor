@@ -5,15 +5,15 @@
 
 const char* ssid = " wifi ";
 const char* password = " ps ";
-
-TinyGPSPlus gps;
+                              
+TinyGPSPlus gps;  
 HardwareSerial SerialGPS(2);
 AsyncWebServer server(80);
-
+   
 const char index_html[] PROGMEM = R"rawliteral(
-<!DOCTYPE html>
+<!DOCTYPE html>                    
 <html>
-<head>
+<head>               
     <title>ESP32 GPS Altitude Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />

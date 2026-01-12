@@ -3,8 +3,8 @@
 #include <TinyGPS++.h>
 #include <HardwareSerial.h>
 
-const char* ssid = " wifi ";
-const char* password = " ps ";
+const char* ssid = "wifi";
+const char* password = "ps";
                               
 TinyGPSPlus gps;  
 HardwareSerial SerialGPS(2);
